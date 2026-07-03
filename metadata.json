@@ -1,0 +1,6 @@
+{
+  "name": "AI Stock Scanner",
+  "description": "An AI-powered stock scanner featuring top gainers, breakout alerts, a watchlist, risk meters, custom charts, a portfolio tracker, and AI stock analysis using Gemini.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

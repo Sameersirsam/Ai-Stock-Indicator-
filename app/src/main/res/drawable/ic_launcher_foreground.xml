@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Rising Stock Candlesticks / Bars -->
+    <!-- Bar 1 -->
+    <path
+        android:pathData="M34,58 h4 v14 h-4 z"
+        android:fillColor="#80FFD700" /> <!-- Semi-transparent Gold Body -->
+    <path
+        android:pathData="M36,53 v24"
+        android:strokeWidth="1.5"
+        android:strokeColor="#80FFD700" /> <!-- Wick -->
+
+    <!-- Bar 2 -->
+    <path
+        android:pathData="M46,46 h4 v18 h-4 z"
+        android:fillColor="#FFD700" /> <!-- Gold Body -->
+    <path
+        android:pathData="M48,38 v32"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FFD700" />
+
+    <!-- Bar 3 -->
+    <path
+        android:pathData="M58,35 h4 v18 h-4 z"
+        android:fillColor="#FFD700" />
+    <path
+        android:pathData="M60,28 v30"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FFD700" />
+
+    <!-- Bar 4 -->
+    <path
+        android:pathData="M68,26 h4 v15 h-4 z"
+        android:fillColor="#FFD700" />
+    <path
+        android:pathData="M70,20 v24"
+        android:strokeWidth="1.5"
+        android:strokeColor="#FFD700" />
+
+    <!-- Rising Trend Line -->
+    <path
+        android:pathData="M24,78 L38,62 L50,48 L62,38 L78,22"
+        android:strokeWidth="3.5"
+        android:strokeColor="#FFD700"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+
+    <!-- Pulsing Node Glows on the line -->
+    <path
+        android:pathData="M78,22m-3,0a3,3 0 1,1 6,0a3,3 0 1,1 -6,0"
+        android:fillColor="#FFFFFF" />
+
+    <!-- AI Scanner / Magnifying Glass Ring -->
+    <!-- Handle -->
+    <path
+        android:pathData="M66,66 L80,80"
+        android:strokeWidth="4"
+        android:strokeColor="#FFE082"
+        android:strokeLineCap="round" />
+
+    <!-- Lens Ring -->
+    <path
+        android:pathData="M52,32 C63.04,32 72,40.96 72,52 C72,63.04 63.04,72 52,72 C40.96,72 32,63.04 32,52 C32,40.96 40.96,32 52,32 Z"
+        android:strokeWidth="3"
+        android:strokeColor="#FFD700" />
+
+    <!-- Cyan Laser Scan Beam -->
+    <path
+        android:pathData="M35,52 L69,52"
+        android:strokeWidth="2.5"
+        android:strokeColor="#00E5FF"
+        android:strokeLineCap="round" />
+
+    <!-- Scan Beam Glow Overlay -->
+    <path
+        android:pathData="M35,52 L69,52"
+        android:strokeWidth="5"
+        android:strokeColor="#4D00E5FF"
+        android:strokeLineCap="round" />
+
+</vector>
